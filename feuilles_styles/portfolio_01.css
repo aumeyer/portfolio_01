@@ -1,0 +1,106 @@
+
+
+/*--body, div, ul { margin: 0; padding: 0;}--*/
+
+body{
+	background-color: none;
+	font-family: Khula, sans-serif; cursor: help;
+
+}
+
+
+.global { margin: 2em;
+}
+
+.entete { height: 200px; 
+		background-color: none;
+		}
+
+
+
+.sparkle {
+	
+	font-size: 150%;
+	line-height: 250%;
+	font-family: Khula;
+	font-weight: 800;
+	
+ 
+            
+
+-webkit-text-fill-color: transparent;
+ background: -webkit-linear-gradient(transparent, transparent),
+             url(http://www.myspacehippo.com/files/glitterbacks/bg345.gif) repeat;
+ background: -o-linear-gradient(transparent, transparent);
+ -webkit-background-clip: text;
+}
+  /*--background: red;           
+ -webkit-background-clip: text;
+}--*/
+
+.about {
+
+	text-align: center;
+	font-size: 120%;
+
+}
+
+.about a {
+
+	margin-right: 2%;
+	margin-left: 2%;
+}
+
+.main {
+	background-color: none;
+	border: 1px solid transparent; 
+	display: flex;
+
+}
+
+.blocmenu { width: 15%; 
+			flex: 1;
+			background-color: none;
+			position: fixed; top: 25%; left: 0;
+}
+
+/*--.contenu { width: 760px; float: left;
+			padding: 10px; padding-left: 30px;
+			background-color: white;}--*/
+#menu li { list-style-type: none;
+			
+			} 
+
+#menu li a, #menu li a:visited { 
+	display: block; font-size: 120%; 
+	text-decoration: none; color: black; }
+
+#menu li a:hover {
+	background-color: lightsteelblue; color: brown;}
+
+img.ui-draggable {
+	display: block;
+	position: absolute;
+/*	left: 777px;
+	top: 411px;*/
+}
+
+.images { 
+	position: relative;
+	flex: 2;
+
+	background-color: none;
+}
+
+.descriptif {
+	position: relative;
+	flex: 3;
+}
+
+/*---div.images img {
+	width: 250;
+	display: none;
+	
+} --*/
+
+
