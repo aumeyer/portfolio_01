@@ -148,39 +148,40 @@ margin-right: 2%;
 }
 
 #tiz {
-	display: block; position: absolute; padding-left: 55%; padding-top: 12%; max-width: 10%;
+	display: block; position: absolute; margin-left: 55%; margin-top: 12%; max-width: 10%;
 }
 #grimentz {
-	display: block; position: absolute; padding-left: 0%; padding-top: 10%; max-width: 30%;
+	display: block; position: absolute; margin-left: 0%; margin-top: 10%; max-width: 30%;
 }
 
 #affiche_co-libri {
-	display: block; position: absolute; padding-left: 60%; padding-top: 20%; max-width: 20%;
+	display: block; position: absolute; margin-left: 60%; margin-top: 20%; max-width: 20%;
 }
 #logo_AAA {
-	display: block; position: absolute; padding-left: 33%; padding-top: 18.5%; max-width: 8%;
+	display: block; position: absolute; margin-left: 33%; margin-top: 18.5%; max-width: 8%;
 }
 #logo_co-libri{
-display: block; position: absolute; padding-left: 3%; padding-top: 34%; max-width: 10%;
+display: block; position: absolute; margin-left: 3%; margin-top: 34%; max-width: 10%;
 }
 #portes-ouvertes {
-	display: block; position: absolute; padding-left: 17%; padding-top: 35%; max-width: 18%;
+	display: block; position: absolute; margin-left: 17%; margin-top: 35%; max-width: 18%;
 }
 #station03 {
-	display: block; position: absolute; padding-left: 45%; padding-top: 47%; max-width: 20%;
+	display: block; position: absolute; margin-left: 45%; margin-top: 47%; max-width: 20%;
 }
 #zurich01_8 {
-	display: block; position: absolute; padding-left: 3%; padding-top: 51%; max-width: 15%;
+	display: block; position: absolute; margin-left: 3%; margin-top: 51%; max-width: 15%;
 }
 #scenographie_8{
-	display: block; position: absolute; padding-left: 35%; padding-top: 30%; max-width: 20%;
-}
-#alia01{
-display: block; position: absolute; padding-left: 32%; padding-top: 1%; max-width: 20%;
+	display: block; position: absolute; margin-left: 35%; margin-top: 30%; max-width: 20%;
 }
 #poultoc{
-display: block; position: absolute; padding-left: 25%; padding-top: 60%; max-width: 13%;
+display: block; position: absolute; margin-left: 25%; margin-top: 60%; max-width: 13%;
 }
+#alia01{
+display: block; position: absolute; margin-left: 32%; margin-top: 3%; max-width: 20%;
+}
+
 
 
 
