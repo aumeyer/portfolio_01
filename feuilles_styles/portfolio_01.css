@@ -4,7 +4,11 @@
 
 body{
 	background-color: none;
-	font-family: Khula, sans-serif; cursor: help;
+	font-family: Khula, sans-serif; cursor: glitter;
+
+}
+header{
+	margin-bottom: 3em;
 
 }
 
@@ -14,6 +18,9 @@ body{
 
 .entete { height: 200px; 
 		background-color: none;
+		width: 100%;
+		float: left;
+
 		}
 
 
@@ -38,10 +45,33 @@ body{
  -webkit-background-clip: text;
 }--*/
 
+#back a{
+margin-right: 2%;
+	margin-left: 2%;
+	font-weight: 600;
+	text-decoration: none;
+	color: black;
+	text-rendering: optimizeLegibility;
+}
+
+#back a:hover{
+	
+	background-color: none; 
+	
+	text-decoration: none;
+	
+	color: rgba(0, 0, 0, 0.0);
+	text-shadow: 0px 0px 5px #383838;
+}
+
 .about {
 
 	text-align: center;
 	font-size: 120%;
+	background-color: none;
+	float: left;
+	width: 100%;
+	height: 15%;
 
 }
 
@@ -49,25 +79,50 @@ body{
 
 	margin-right: 2%;
 	margin-left: 2%;
+	font-weight: 600;
+	text-decoration: none;
+	color: black;
+	text-rendering: optimizeLegibility;
 }
 
-.main {
-	background-color: none;
-	border: 1px solid transparent; 
-	display: flex;
+.about a:hover{
+	background-color: none; 
+	
+	text-decoration: none;
+	
+	color: rgba(0, 0, 0, 0.0);
+	text-shadow: 0px 0px 5px #383838;
+	
 
 }
 
-.blocmenu { width: 15%; 
-			flex: 1;
-			background-color: none;
-			position: fixed; top: 25%; left: 0;
+
+
+#blocmenu { width: 20%; 
+			float: left;
+			font-weight: 600;
+			background-color: none; 
+
+
+
+}
+
+#blocmenu a:hover{
+	background-color: none; 
+	
+	text-decoration: none;
+	
+	color: rgba(0, 0, 0, 0.0);
+	text-shadow: 0px 0px 5px #383838;
+	
+
 }
 
 /*--.contenu { width: 760px; float: left;
 			padding: 10px; padding-left: 30px;
 			background-color: white;}--*/
 #menu li { list-style-type: none;
+			background-color: none;
 			
 			} 
 
@@ -76,31 +131,268 @@ body{
 	text-decoration: none; color: black; }
 
 #menu li a:hover {
-	background-color: lightsteelblue; color: brown;}
+	background-color: none; style: brown;}
 
-img.ui-draggable {
-	display: block;
-	position: absolute;
-/*	left: 777px;
-	top: 411px;*/
+.images {
+	float: left;
+	width: 60%;
+	height: 60%;
+	background-color: pink;
 }
 
-.images { 
-	position: relative;
-	flex: 2;
+#grille {
+	float: left;
+	max-width: 40%;
+	background-color: purple;
+	height: 20%
+}
 
+#tiz {
+	display: block; position: absolute; padding-left: 55%; padding-top: 12%; max-width: 10%;
+}
+#grimentz {
+	display: block; position: absolute; padding-left: 0%; padding-top: 10%; max-width: 30%;
+}
+
+#affiche_co-libri {
+	display: block; position: absolute; padding-left: 60%; padding-top: 20%; max-width: 20%;
+}
+#logo_AAA {
+	display: block; position: absolute; padding-left: 33%; padding-top: 18.5%; max-width: 8%;
+}
+#logo_co-libri{
+display: block; position: absolute; padding-left: 3%; padding-top: 34%; max-width: 10%;
+}
+#portes-ouvertes {
+	display: block; position: absolute; padding-left: 17%; padding-top: 35%; max-width: 18%;
+}
+#station03 {
+	display: block; position: absolute; padding-left: 45%; padding-top: 47%; max-width: 20%;
+}
+#zurich01_8 {
+	display: block; position: absolute; padding-left: 3%; padding-top: 51%; max-width: 15%;
+}
+#scenographie_8{
+	display: block; position: absolute; padding-left: 35%; padding-top: 30%; max-width: 20%;
+}
+#alia01{
+display: block; position: absolute; padding-left: 32%; padding-top: 1%; max-width: 20%;
+}
+#poultoc{
+display: block; position: absolute; padding-left: 25%; padding-top: 60%; max-width: 13%;
+}
+
+
+
+#portrait {
+	float: left;
+	margin-left: 5%;
+	width: 35%;
+
+}
+
+
+#descriptif {
+	float: left;
+	width:35%;
+	height: auto;
+	margin-left: 5%;
+	margin-top: 22%;
 	background-color: none;
+	line-height: 35%;
+	font-weight: 400;
 }
 
-.descriptif {
-	position: relative;
-	flex: 3;
+#descriptif a{
+	text-decoration: none;
+	color: black;
+	text-rendering: optimizeLegibility;
 }
 
-/*---div.images img {
-	width: 250;
-	display: none;
+#descriptif a:hover {
+	background-color: none; 
 	
-} --*/
+	text-decoration: none;
+	
+	color: rgba(0, 0, 0, 0.0);
+	text-shadow: 0px 0px 5px #383838;
+}
+
+
+
+
+#grimentz_data {
+	float: left;
+	margin-left: 5%;
+	margin-right: 2%;
+	max-width: 62%;
+}
+
+#logo_tiz {
+	float: left;
+	margin-top: 10%;
+	margin-left: 5%;
+	margin-right: 15%;
+	max-width: 25%;
+}
+
+
+#coco{
+	float: left;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 15%;
+	max-width: 45%;
+}
+#coco_lolo{
+float: left;
+	margin-top: 1%;
+	margin-left: 5%;
+	margin-right: 15%;
+	max-width: 30%;
+}
+
+#colo{
+float: left;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 15%;
+	max-width: 25%;
+}
+
+#PO{
+float: left;
+	margin-top: 0%;
+	margin-left: 5%;
+	margin-right: 15%;
+	max-width: 45%;
+}
+
+#st03 {
+	float: left;
+	margin-top: 0%;
+	margin-left: 5%;
+	margin-right: 15%;
+	max-width: 55%;
+}
+
+#st01 {
+	float: left;
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 15%;
+	max-width: 55%;
+}
+#st02{
+	float: left;
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 15%;
+	margin-bottom: 3%;
+	max-width: 55%;
+}
+
+#z01{
+	float: left;
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 15%;
+	margin-bottom: 3%;
+	max-width: 50%;
+}
+
+#z02{
+	float: left;
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 15%;
+	margin-bottom: 3%;
+	max-width: 50%;
+}
+
+#sceno{
+	float: left;
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 15%;
+	margin-bottom: 3%;
+	max-width: 55%;
+}
+
+#a01{
+	float: left;
+	margin-top: 0%;
+	margin-left: 5%;
+	margin-right: 15%;
+	
+	max-width: 55%;
+}
+
+#a02{
+	float: left;
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 15%;
+	
+	max-width: 55%;
+}
+
+#a03{
+	float: left;
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 15%;
+	
+	max-width: 55%;
+}
+
+#a04{
+	float: left;
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 15%;
+	
+	max-width: 55%;
+}
+
+#a05{
+	float: left;
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 15%;
+	
+	max-width: 55%;
+}
+
+#a06{
+	float: left;
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 15%;
+	
+	max-width: 55%;
+}
+
+#poulet{
+	float: left;
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 15%;
+	
+	max-width: 55%;
+}
+
+
+#project {
+	float: left;
+	max-width: 27%;
+	position: fixed;
+	left: 70%;
+	margin-top: 22%;
+	background-color: none;
+	line-height: 120%;
+	font-weight: 400;
+}
+
 
 
