@@ -226,13 +226,13 @@ display: block; position: absolute; margin-left: 32%; margin-top: 3%; max-width:
 	float: left;
 	margin-left: 5%;
 	margin-right: 2%;
-	max-width: 62%;
+	max-width: 58%;
 }
 
 #logo_tiz {
 	float: left;
 	margin-top: 10%;
-	margin-left: 5%;
+	margin-left: 15%;
 	margin-right: 15%;
 	max-width: 25%;
 }
@@ -248,7 +248,7 @@ display: block; position: absolute; margin-left: 32%; margin-top: 3%; max-width:
 #coco_lolo{
 float: left;
 	margin-top: 1%;
-	margin-left: 5%;
+	margin-left: 15%;
 	margin-right: 15%;
 	max-width: 30%;
 }
@@ -256,7 +256,7 @@ float: left;
 #colo{
 float: left;
 	margin-top: 5%;
-	margin-left: 5%;
+	margin-left: 15%;
 	margin-right: 15%;
 	max-width: 25%;
 }
