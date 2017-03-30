@@ -161,6 +161,9 @@ nav a:hover{
 #tiz {
 	display: block; position: absolute; margin-left: 74%; margin-top: 12%; max-width: 15%;
 }
+#portes-ouvertes {
+	display: block; position: absolute; margin-left: 23%; margin-top: 35%; max-width: 18%;
+}
 #grimentz {
 	display: block; position: absolute; margin-left: 0%; margin-top: 13.5%; max-width: 32%;
 }
@@ -174,9 +177,7 @@ nav a:hover{
 #logo_co-libri{
 display: block; position: absolute; margin-left: 13%; margin-top: 37%; max-width: 10%;
 }
-#portes-ouvertes {
-	display: block; position: absolute; margin-left: 23%; margin-top: 45%; max-width: 18%;
-}
+
 #station03 {
 	display: block; position: absolute; margin-left: 63%; margin-top: 51%; max-width: 20%;
 }
@@ -187,9 +188,11 @@ display: block; position: absolute; margin-left: 13%; margin-top: 37%; max-width
 	display: block; position: absolute; margin-left: 42%; margin-top: 37%; max-width: 28%;
 }
 #poultoc{
-display: block; position: absolute; margin-left: 45%; margin-top: 58%; max-width: 15%;
+	display: block; position: absolute; margin-left: 45%; margin-top: 58%; max-width: 15%;
 }
-
+#flash{
+	display: block; position: absolute; margin-left: 27%; margin-top: 65%; max-width: 20%;
+}
 
 
 
@@ -209,7 +212,7 @@ display: block; position: absolute; margin-left: 45%; margin-top: 58%; max-width
 	margin-left: 5%;
 	margin-top: 22%;
 	background-color: none;
-	line-height: 35%;
+	line-height: 0.8;
 	font-weight: 400;
 }
 
@@ -217,6 +220,7 @@ display: block; position: absolute; margin-left: 45%; margin-top: 58%; max-width
 	text-decoration: none;
 	color: black;
 	text-rendering: optimizeLegibility;
+	line-height: 0.8;
 }
 
 #descriptif a:hover {
@@ -392,6 +396,13 @@ float: left;
 	max-width: 55%;
 }
 
+#flash_p{
+	float: left;
+	margin-top: 2%;
+	margin-left: 5%;
+	margin-right: 15%;
+	max-width: 300%;
+}
 
 #project {
 	float: left;
